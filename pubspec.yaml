@@ -1,0 +1,45 @@
+name: auto_parts_tomkiz
+description: "A Flutter project for purchasing auto parts."
+publish_to: 'none'  # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.0.0        # Ажурирано на најновата компатибилна верзија
+  cached_network_image: ^3.2.0  # За кеширање слики
+  http: ^0.13.3            # Ажурирано за http пакето
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0    # Lints за подобро кодирање
+
+flutter:
+  uses-material-design: true
+
+  # Define assets directory if you use any assets like images
+  assets:
+    - assets/banner.png
+    - assets/brake_pads.png
+    - assets/oil_filter.png
+    - assets/spark_plugs.png
+    - assets/rim.png
+    - assets/rim2.png
+    - assets/tire1.png
+    - assets/tire2.png
+    - assets/car_battery.png
+    - assets/alternator.png
+    - assets/seat_covers.png
+    - assets/steering_wheel_cover.png
+    - assets/floor_mats.png
+    - assets/phone_mount.png
+    - assets/emergency_kit.png
+    - assets/car_trash_can.png
+    - assets/air_freshener.png
+
